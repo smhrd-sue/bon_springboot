@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 import kr.smhrd.lunch.dto.GoodsDTO;
 import kr.smhrd.lunch.service.GoodsService;
 
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "http://3.38.107.204:5173")
 @RestController
 @RequestMapping("/api")
 public class GoodsController {
